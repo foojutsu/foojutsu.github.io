@@ -3,7 +3,7 @@ ruby RUBY_VERSION
 
 # RVM Configuration [ https://rvm.io/workflow/projects#project-file-gemfile ]
 #ruby=ruby-2.4.0-rc1
-#ruby-gemset=foojutsu
+#ruby-gemset=jekyll
 
 # Enable support for GitHub Pages
 # https://jekyllrb.com/docs/github-pages/#use-the-github-pages-gem
