@@ -3,18 +3,15 @@ ruby RUBY_VERSION
 
 # RVM Configuration [ https://rvm.io/workflow/projects#project-file-gemfile ]
 #ruby=ruby-2.4.0-rc1
-#ruby-gemset=jekyll
+#ruby-gemset=foojutsu-jekyll
 
 # Enable support for GitHub Pages
 # https://jekyllrb.com/docs/github-pages/#use-the-github-pages-gem
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-gem 'github-pages', versions['github-pages']
+gem 'github-pages'
 
 # GitHub Pages-supported Jekyll Theme
 # https://pages.github.com/themes/
-gem 'minima', '~> 2.0'
+gem 'jekyll-theme-hacker'
 
 # GitHub Pages-supported Jekyll Plugins
 # https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/

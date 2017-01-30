@@ -1,0 +1,48 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Remove leading "./"
+header h1:before {
+  content: "";
+}
+
+header h1 {
+  margin-left: 0px;
+  font-family: 'Courier New', 'Courier', 'monospace';
+  font-size: 3em;
+  color: rgb(168, 255, 0);
+  text-align: center;
+}
+
+header h2 {
+  font-family: 'Helvetica', 'Arial';
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#main_content {
+  text-align: center;
+}
+
+footer {
+  padding: 20px 0;
+  border-top: 1px dashed #b5e853;
+  margin: 40px 0 0 0;
+}
+
+#downloads {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-twitter .icon {
+  opacity: 0.6;
+  background: url("../images/twitter-white-16x16.png") 0 0 no-repeat;
+}
+
+.btn-facebook .icon {
+  opacity: 0.6;
+  background: url("../images/facebook-white-16x16.png") 0 0 no-repeat;
+}

@@ -14,14 +14,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so
 # on. You can create any custom variable you would like, and they will be
 # accessible in the templates via {{ site.myvariable }}.
-title: foojutsu
-email: inquire@foojutsu.com
-description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: foojutsu
-github_username:  foojutsu
+title: 'foojutsu'
+email: 'inquire@foojutsu.com'
+description: 'Code + Data = Insight'
+
+github:
+  username: 'foojutsu'
+  url:      'https://github.com/foojutsu'
+
+twitter:
+  username: 'foojutsu'
+  url:      'https://twitter.com/foojutsu'
+
+facebook:
+  username: 'foojutsu'
+  url:      'https://facebook.com/foojutsu'
 
 # Where things are
 source:       .
@@ -47,6 +54,8 @@ show_drafts: null
 limit_posts: 0
 future:      false
 unpublished: false
+show_downloads: false
+# google_analytics: [Your Google Analytics tracking ID]
 
 # GitHub Pages-supported Plugins
 # https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
@@ -54,20 +63,12 @@ whitelist: []
 gems: [ 'jekyll-feed', 'jekyll-gist', 'jekyll-mentions', 'jekyll-redirect-from', 'jemoji', 'jekyll-seo-tag', 'jekyll-sitemap' ]
 
 # Conversion
-theme:       minima
+theme:       jekyll-theme-hacker
 markdown:    kramdown
 highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
 incremental: false
-
-# Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-url:     ''
-baseurl: ''
-show_dir_listing: false
 
 # Output
 permalink:     /:year/:month/:title
@@ -77,11 +78,19 @@ quiet:    false
 verbose:  false
 defaults: []
 
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+url:     ''
+baseurl: ''
+show_dir_listing: false
+
 # Templating
 liquid:
   error_mode: warn
 
-# Markdown Processors
+# Processors
 rdiscount:
   extensions: []
 
@@ -97,7 +106,7 @@ kramdown:
   input:          GFM
   hard_wrap:      false
   footnote_nr:    1
-  math_engine: mathjax
+  math_engine:    mathjax
 
 # Gist Plugin - disable noscript support
 # https://github.com/jekyll/jekyll-gist#disabling-noscript-support
