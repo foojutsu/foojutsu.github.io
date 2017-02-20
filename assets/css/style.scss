@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+  font-family: 'Made In China';
+  src: url(../fonts/made_in_china.ttf) format('truetype');
+}
+
 // Remove leading "./"
 header h1:before {
   content: "";
@@ -14,6 +19,14 @@ header h1 {
   font-size: 3em;
   color: rgb(168, 255, 0);
   text-align: center;
+}
+
+header h1 span.made_in_china {
+  font-family: 'Made In China', 'Courier New', 'Courier', 'monospace';
+}
+
+header h1 span.letter_spacing {
+  letter-spacing: .08em;
 }
 
 header h2 {
