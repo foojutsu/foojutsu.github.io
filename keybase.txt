@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/gregoryfoster
+--------------------------------------------------------------------
+
+I hereby claim:
+
+* I am an admin of http://foojutsu.com
+* I am gregoryfoster (https://keybase.io/gregoryfoster) on keybase.
+* I have a public key ASCu3EU63M2z_l1LV83uMs-prMX6ItvgvsV_LM2ABnwDIgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101daf1303b2a8a3484507a97b62d689315a65948cd6aa5116561814cea592fab6f0a",
+            "host": "keybase.io",
+            "kid": "0120aedc453adccdb3fe5d4b57cdee32cfa9acc5fa22dbe0bec57f2ccd80067c03220a",
+            "uid": "6696e38932ffe929be1f0b798a3c1519",
+            "username": "gregoryfoster"
+        },
+        "service": {
+            "hostname": "foojutsu.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1488506389,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1488506364,
+        "hash": "a6b4c8135d9a5451ff7ea5ea5749ea8bd038cc0501bd55888fb3c6e03175bbf90736c2d4aa2e8599e1d4dbf98b85d8ce16748b74ad686f38e09e1534a76bad25",
+        "seqno": 935769
+    },
+    "prev": "c4d5b3550ad8bac520fc67f460ca9070c12a71a9090ce717778fdd1963600b17",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hlZMOpaGFzaF90eXBlCqNrZXnEIwEgrtxFOtzNs/5dS1fN7jLPqazF+iLb4L7FfyzNgAZ8AyIKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZGFmMTMwM2IyYThhMzQ4NDUwN2E5N2I2MmQ2ODkzMTVhNjU5NDhjZDZhYTUxMTY1NjE4MTRjZWE1OTJmYWI2ZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYWVkYzQ1M2FkY2NkYjNmZTVkNGI1N2NkZWUzMmNmYTlhY2M1ZmEyMmRiZTBiZWM1N2YyY2NkODAwNjdjMDMyMjBhIiwidWlkIjoiNjY5NmUzODkzMmZmZTkyOWJlMWYwYjc5OGEzYzE1MTkiLCJ1c2VybmFtZSI6ImdyZWdvcnlmb3N0ZXIifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImZvb2p1dHN1LmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODg1MDYzODksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4ODUwNjM2NCwiaGFzaCI6ImE2YjRjODEzNWQ5YTU0NTFmZjdlYTVlYTU3NDllYThiZDAzOGNjMDUwMWJkNTU4ODhmYjNjNmUwMzE3NWJiZjkwNzM2YzJkNGFhMmU4NTk5ZTFkNGRiZjk4Yjg1ZDhjZTE2NzQ4Yjc0YWQ2ODZmMzhlMDllMTUzNGE3NmJhZDI1Iiwic2Vxbm8iOjkzNTc2OX0sInByZXYiOiJjNGQ1YjM1NTBhZDhiYWM1MjBmYzY3ZjQ2MGNhOTA3MGMxMmE3MWE5MDkwY2U3MTc3NzhmZGQxOTYzNjAwYjE3Iiwic2Vxbm8iOjEyLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQFyHHq83Sv+jCBxqePudmSlmpiduAAkhXAKHgYWgjvZfx+us4X8R6tbClFxfOdRt8AXdg4pLPuAtuw8PE7wMaAmoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBC7nbLhPGdyvYdG4sZbXdxbvVuR4sbVHbsQhaHsngDBKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gregoryfoster
+
+==================================================================
